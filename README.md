@@ -5,16 +5,12 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-phabricator'
+gem 'omniauth-phabricator', :github => 'dgvz/omniauth-phabricator', :branch => "master"
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install omniauth-phabricator
 
 ## Usage
 

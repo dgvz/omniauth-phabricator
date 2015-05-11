@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-### Roda
+### Rack
 ```ruby
 require "omniauth/phabricator"
 

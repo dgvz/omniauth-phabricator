@@ -13,12 +13,12 @@ module OmniAuth
         super
       end
 
-      uid{ raw_info['phid'] }
+      uid{ raw_info['result']['phid'] }
 
       info do
         {
-          :name => raw_info['realName'],
-          :email => raw_info['primaryEmail']
+          :name => raw_info['result']['realName'],
+          :email => raw_info['result']['primaryEmail']
         }
       end
 
